@@ -9,6 +9,10 @@ ORDER = ["day07", "day08", "day09", "day10",
          "day01", "day02", "day03", "day04", "day05", "day06",
          "day11_bonus"]
 
+# Link added to every email. Change here if it ever changes.
+LINK_TITLE = "LLM Generative AI 10 days bootcamp"
+LINK_URL = "https://chatgpt.com/share/6add096f-7bf8-83ec-b17d-377db0bdd752"
+
 CONTENT = Path(__file__).parent / "content"
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -24,9 +28,12 @@ def build_message(name: str, sender: str, to: str, n: int) -> EmailMessage:
     msg = EmailMessage()
     msg["Subject"] = f"AI Bootcamp ({n + 1}/{len(ORDER)}): {title}"
     msg["From"], msg["To"] = sender, to
-    msg.set_content(text)
+    msg.set_content(f"{LINK_TITLE}: {LINK_URL}\n\n{text}")
     msg.add_alternative(
-        "<html><body><pre style=\"font-family:Consolas,monospace;font-size:14px;"
+        "<html><body>"
+        f"<p style=\"font-family:Arial,sans-serif;font-size:15px\">&#128279; "
+        f"<a href=\"{LINK_URL}\">{html.escape(LINK_TITLE)}</a></p><hr>"
+        "<pre style=\"font-family:Consolas,monospace;font-size:14px;"
         f"white-space:pre-wrap;line-height:1.5\">{html.escape(text)}</pre></body></html>",
         subtype="html")
     return msg
