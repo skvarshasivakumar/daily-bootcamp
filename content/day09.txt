@@ -1,0 +1,59 @@
+============================================================
+DAY 9 — FINE-TUNING AND MULTIMODAL AI
+============================================================
+
+1. Prompting vs RAG vs fine-tuning
+
+Prompting:
+Give instructions/context at request time. Fast to try and easy to change, but the prompt has context limits.
+
+RAG:
+Retrieve external information and add it to the prompt. Useful when the answer must refer to changing or private documents and when citations matter.
+
+Fine-tuning:
+Train a base model further on examples to change its behavior or adapt it to a task/style. It is not usually the best way to inject facts that change frequently; retrieval may be more appropriate for that.
+
+2. Fine-tuning terms
+- SFT (Supervised Fine-Tuning): train on examples of desired inputs and outputs.
+- PEFT (Parameter-Efficient Fine-Tuning): adapt only a small portion or parameterization rather than all base parameters.
+- LoRA: adds trainable low-rank updates to selected model weights.
+- QLoRA: combines quantization of the base model with LoRA-style fine-tuning to reduce memory requirements.
+- RLHF: Reinforcement Learning from Human Feedback; human preferences inform a training/optimization process.
+- DPO: Direct Preference Optimization; uses preference comparisons in a direct optimization approach.
+These techniques differ in data needs, compute, complexity and behavior. Fine-tuning can introduce regressions, so evaluation before/after is essential.
+
+3. Multimodal AI
+
+Multimodal systems work with more than one modality, such as text, images, audio or video.
+
+Image/vision:
+- image classification;
+- object detection;
+- visual question answering;
+- vision-language models (VLMs).
+
+OCR:
+Optical Character Recognition extracts text from images or scanned documents. OCR output can contain errors and should be checked when accuracy matters.
+
+Audio:
+- ASR (Automatic Speech Recognition): converts speech/audio to text.
+- STT (Speech-to-Text): often used as a closely related product term.
+- TTS (Text-to-Speech): generates speech from text.
+- VAD (Voice Activity Detection): identifies regions likely to contain speech.
+- diarization: estimates who spoke when, often assigning speaker labels.
+Audio can be noisy, accents and overlapping speakers can reduce accuracy, and transcripts need validation.
+
+Video:
+May combine frame sampling/vision with audio transcription and temporal summaries. A system should preserve timestamps and not claim details that were never visible or audible.
+
+4. AI Meeting Intelligence project
+With appropriate permission for recording/transcription:
+1. Accept an audio file.
+2. Run speech-to-text.
+3. preserve timestamps/speaker labels when supported;
+4. ask an LLM to produce a summary, decisions and action items;
+5. attach transcript evidence to action items;
+6. let a human review the output;
+7. export the result.
+
+Important: the model may infer an action item that nobody actually agreed to. Verify action items against transcript evidence and do not record meetings without proper authorization.

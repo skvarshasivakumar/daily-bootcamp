@@ -1,0 +1,59 @@
+============================================================
+DAY 4 — ADVANCED RAG AND RETRIEVAL QUALITY
+============================================================
+
+Basic RAG is a starting point. Advanced RAG improves the likelihood that the right evidence reaches the model.
+
+1. Metadata filtering
+Store metadata such as series, document title, page, date and document category. Filter before or during retrieval when the user asks about a particular series or document.
+
+2. Top-k retrieval
+Top-k means retrieving the k highest-ranked results under a retrieval method. A very small k can miss evidence; a very large k can add noise and consume context. Tune it against a test set.
+
+3. Similarity vs relevance
+Vector similarity estimates closeness in embedding space. A relevant passage is one that actually helps answer the question. They are related but not identical.
+
+4. Hybrid search
+Combines semantic/vector retrieval with keyword-based retrieval. Keyword search can help with exact names, IDs, product codes and rare terms; vector search can help with paraphrases and semantic similarity.
+
+5. Reranking
+A reranker receives candidate passages and scores how relevant each passage is to the specific question. The application can then keep the strongest passages. This adds computation and latency, so evaluate whether it improves results.
+
+6. Query rewriting
+Rewrite an unclear question into a better search query. Example:
+Original: "What about his teacher?"
+Possible rewrite: "Who is Naruto's teacher?" only if the conversation provides enough context to resolve "his." If not, ask the user which character they mean instead of guessing.
+
+7. Multi-query retrieval
+Generate several search formulations for one question and retrieve candidates for each. Merge and deduplicate candidates, then optionally rerank them. More queries may improve recall but can raise cost and latency.
+
+8. Parent-child retrieval
+Index small chunks for precise matching, but return a larger parent section for context. This can combine precise search with coherent evidence.
+
+9. Citations and grounding
+Preserve source identifiers throughout ingestion and retrieval. A citation should point to evidence that actually supports the associated claim. Do not invent page numbers or sources.
+
+10. Evaluation
+Create a fixed question set and expected evidence/answers. Evaluate:
+- retrieval recall: did retrieval find the necessary evidence?
+- ranking quality: were useful chunks ranked highly?
+- answer correctness: is the answer accurate?
+- groundedness: are claims supported by retrieved evidence?
+- citation correctness: do citations support the claims?
+- refusal/abstention: does the app admit when evidence is absent?
+- latency and cost.
+
+DAY 4 MINI-PROJECT
+Upgrade the anime RAG with:
+- metadata filters;
+- configurable top-k;
+- a relevance threshold or reranking stage;
+- source citations;
+- an "I don't know from these documents" behavior;
+- a small evaluation set of 15–30 questions, including answerable and unanswerable questions.
+
+Debugging guide:
+- If the answer is wrong because the correct text was never retrieved, improve ingestion/retrieval.
+- If correct text is retrieved but the answer is wrong, inspect the prompt, model, context ordering and output validation.
+- If the source is outdated, improve document versioning and refresh strategy.
+- If citations do not support claims, validate citations separately.

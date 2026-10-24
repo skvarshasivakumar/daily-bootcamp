@@ -1,0 +1,62 @@
+============================================================
+DAY 5 — LANGCHAIN AND LANGGRAPH
+============================================================
+
+1. Why orchestration frameworks exist
+
+As an AI application grows, you may need to connect model calls, prompts, retrievers, tools, validation and retries. Orchestration frameworks can provide reusable components and workflow patterns. They are optional: understand the underlying operations first, and do not add a framework merely because it is popular.
+
+2. LangChain concepts
+
+Depending on version and packages, common concepts include:
+- chat/model integrations;
+- prompt templates;
+- output parsers;
+- retrievers;
+- document loaders;
+- embedding integrations;
+- tool definitions;
+- composable sequences/workflows.
+
+LCEL (LangChain Expression Language) is a composition approach used in LangChain to connect components. APIs evolve, so consult documentation matching your installed version.
+
+Conceptual flow:
+Question → prompt formatting → retrieval/model step → output parsing → response
+
+3. LangGraph
+
+LangGraph is designed for stateful, graph-based workflows. A workflow can have:
+- state: data carried through the process;
+- nodes: functions/steps;
+- edges: transitions;
+- conditional edges: choose the next step based on a condition;
+- loops: repeat a step when appropriate;
+- checkpointing/persistence and human approval patterns depending on configuration.
+
+Example workflow:
+START
+  ↓
+Analyze question
+  ↓
+Retrieve documents
+  ↓
+Check evidence
+  ├── relevant → Generate answer → Validate citations → END
+  └── not relevant → Ask clarification or report missing evidence → END
+
+Use explicit state so the workflow can explain what it has retrieved and why it is taking a path.
+
+DAY 5 MINI-PROJECT — STATEFUL ANIME RAG
+Add nodes such as:
+1. question analyzer;
+2. retriever;
+3. relevance checker;
+4. answer generator;
+5. citation validator;
+6. clarification/fallback node.
+
+Keep the first version small. Test each node independently before connecting the entire graph. Framework APIs change, so treat this as the design, not guaranteed copy-paste code for every version.
+
+Mini-exercise:
+When might a graph workflow be better than a single chain?
+Answer: when the application needs branching, repeated attempts, state, validation, or human approval. A simple one-pass prompt may not need a graph.

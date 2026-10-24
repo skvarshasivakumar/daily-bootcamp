@@ -1,0 +1,116 @@
+============================================================
+DAY 10 — PRODUCTION AI, EVALUATION, LLMOPS AND SECURITY
+============================================================
+
+1. What is LLMOps?
+
+LLMOps is the set of engineering practices used to build, evaluate, deploy, observe and maintain applications that use language models. It overlaps with software engineering, MLOps, reliability engineering and security.
+
+2. Evaluation layers
+- Retrieval evaluation: did the system retrieve useful evidence?
+- Answer evaluation: is the response correct and useful?
+- Groundedness evaluation: are claims supported by sources?
+- Citation evaluation: do references support the claims they accompany?
+- Safety evaluation: does the app avoid disallowed or unauthorized actions?
+- Performance evaluation: latency, throughput, cost and resource use.
+- Regression evaluation: did a change break previously working cases?
+
+Create representative test cases, including edge cases and questions that should be refused or answered with "not found."
+
+3. Observability and tracing
+
+A useful trace may include:
+- request/correlation ID;
+- model and prompt-template version;
+- retrieval duration;
+- number of candidate/retrieved chunks;
+- generation duration;
+- token usage if provided;
+- tool name and result status;
+- validation outcome;
+- error/fallback path;
+- total latency and estimated cost.
+
+Example trace (illustrative values only):
+Request: req-001
+Retrieval: 120 ms
+Chunks included: 4
+Model generation: 1.8 s
+Output tokens: 180
+Citation validation: passed
+Total: approximately 2.0 s
+
+Do not log secrets or unnecessary personal data. Consider retention, access controls and redaction.
+
+4. Latency and cost
+Latency can come from:
+- network and provider queue;
+- prompt/context length;
+- retrieval and reranking;
+- model size;
+- output length;
+- tool calls;
+- validation and retries.
+
+Cost can depend on input/output tokens, model, hosting, embedding requests, vector database, storage and infrastructure. Measure actual use; do not rely only on a theoretical estimate.
+
+5. Streaming
+Streaming displays partial output as it is generated, which can improve perceived responsiveness. It complicates cancellation, partial-output validation and error handling. Do not treat a partial stream as a completed validated answer.
+
+6. Common failure modes and fallbacks
+- Provider timeout → bounded retry or clear error.
+- Rate limit → backoff, queue, or user-facing retry guidance.
+- Empty retrieval → explain that no supporting material was found.
+- Invalid JSON → parse/validate, retry carefully or return a controlled error.
+- Tool failure → report the failed operation; do not pretend it succeeded.
+- Unsupported question → ask a clarification or state the evidence gap.
+- Contradictory sources → surface the conflict rather than silently choosing.
+- Long input → summarize, chunk or retrieve selectively.
+- Model unavailable → safe fallback if one is configured.
+
+7. Prompt injection and untrusted data
+Prompt injection can appear in user input, retrieved documents, websites or tool results. For example, a retrieved file might contain text telling the model to ignore instructions and reveal secrets. Treat such content as data to analyze, not instructions to obey.
+
+Defenses:
+- keep system/developer instructions separate from retrieved data;
+- restrict tool capabilities and permissions;
+- validate tool arguments in application code;
+- use allowlists and least privilege;
+- never put secrets into prompts unnecessarily;
+- require approval for consequential actions;
+- enforce access checks outside the model;
+- test prompt-injection cases;
+- validate structured output and citations;
+- monitor failures and update defenses.
+
+8. Production architecture
+
+Angular or another frontend
+  ↓ HTTPS request
+Backend API (authentication, authorization, rate limits)
+  ↓
+AI orchestration layer
+  ├── prompt/model adapter
+  ├── retriever and vector database
+  ├── approved tools/MCP clients
+  ├── output validation and citation checks
+  └── observability/evaluation
+  ↓
+Hosted model or controlled local model
+
+The backend, not the browser, should hold provider secrets. Enforce permissions in backend services and data stores; a model prompt is not an authorization system.
+
+DAY 10 MINI-PROJECT — DEV MIND PRODUCTION CHECKLIST
+- chat endpoint;
+- code/document RAG;
+- source references;
+- safe developer tools;
+- workflow orchestration;
+- model comparison;
+- evaluation dataset;
+- tracing and cost/latency metrics;
+- input/output validation;
+- access controls;
+- prompt-injection tests;
+- rate limits and error handling;
+- deployment and monitoring.

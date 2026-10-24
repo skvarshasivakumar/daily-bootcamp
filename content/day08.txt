@@ -1,0 +1,55 @@
+============================================================
+DAY 8 — OPEN-WEIGHT MODELS, LOCAL AI AND QUANTIZATION
+============================================================
+
+1. Hosted, open-weight and open-source models
+
+Hosted model:
+The provider operates the model; your application sends requests to the service.
+
+Open-weight model:
+The model's learned weights are available under a license. This can enable local deployment or customization, but the license may still impose conditions.
+
+Open-source AI:
+This term can mean different things in casual use. Access to weights alone does not automatically mean every training dataset, training process, or component is open-source. Review the actual license and release materials.
+
+2. Model families
+Examples discussed in the learning plan include Llama, Qwen, Mistral, Gemma and DeepSeek families. Families contain different model sizes, capabilities and licenses; do not assume every model in a family has identical terms or performance.
+
+3. Parameters vs context length
+- Parameter count describes the approximate number of learned values.
+- Context length describes how many tokens a model can process in a context under its limits.
+They are different properties.
+
+4. Quantization
+Quantization stores or computes model values at lower numerical precision to reduce memory and sometimes improve speed.
+Illustrative raw weight-storage estimates for an 8-billion-parameter model:
+- FP32: 8B × 4 bytes ≈ 32 GB;
+- FP16: 8B × 2 bytes ≈ 16 GB;
+- 8-bit: roughly 8 GB;
+- 4-bit: roughly 4 GB.
+
+These are rough decimal estimates for weights only. Real memory needs also include metadata/quantization overhead, runtime, activations, context/KV cache, and other allocations. Hardware and software affect the actual result. Lower precision may affect quality.
+
+5. Running models locally
+Tools such as Ollama and the Hugging Face Transformers ecosystem can help run compatible models locally. Before downloading:
+- check the license;
+- check system requirements;
+- check model card and format;
+- confirm whether your hardware is suitable;
+- download from a trustworthy source.
+
+6. Evaluation matrix
+Compare models using the same test prompts and record:
+- answer correctness;
+- instruction following;
+- grounding;
+- latency;
+- memory use;
+- cost;
+- privacy/data-flow needs;
+- tool-call reliability;
+- license and deployment requirements.
+
+DAY 8 MINI-PROJECT — MODEL COMPARISON
+Run the same set of questions through two or more models. Keep a table with question, model, output, correctness score, latency, memory/cost notes and license. Use a fixed evaluation set so the comparison is fair.

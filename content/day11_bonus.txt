@@ -1,0 +1,180 @@
+============================================================
+FLAGSHIP PROJECT — DEVMIND: AI DEVELOPER ASSISTANT
+============================================================
+
+Goal:
+Build an assistant that can answer questions about a codebase and selected documents, cite evidence, and use a small set of safe developer tools.
+
+Suggested architecture:
+- Frontend: Angular.
+- Backend/API: Python (FastAPI is one possible choice).
+- LLM integration: start with a hosted model or a small local model.
+- Document/code ingestion: text extraction, chunking, metadata.
+- Embeddings and vector store: choose based on the project size and needs.
+- Retrieval: vector search; later add keyword/hybrid search and reranking.
+- Orchestration: plain Python first, then LangChain/LangGraph if useful.
+- Tools: read-only file list/search/read, calculator, later a carefully controlled MCP server.
+- Evaluation: fixed question set, expected evidence, answer/citation scoring.
+- Production: authentication, rate limits, logging, secrets management, monitoring.
+
+Milestones:
+1. A basic chat interface.
+2. Model adapter and response display.
+3. Document ingestion.
+4. RAG retrieval and citations.
+5. Codebase search/read tools with strict path restrictions.
+6. Stateful workflow and relevance checks.
+7. MCP integration for read-only tools.
+8. Compare hosted and local/open-weight models.
+9. Add multimodal input only when needed.
+10. Add evaluation, monitoring, security and deployment.
+
+Suggested repository structure:
+devmind/
+  frontend/
+  backend/
+    app/
+      api/
+      services/
+      rag/
+      tools/
+      evaluation/
+      security/
+      observability/
+    tests/
+  data/
+    sample_docs/
+  evals/
+    questions.jsonl
+  docs/
+  .env.example
+  README.md
+
+Do not commit `.env` or real secrets. Keep `.env.example` limited to placeholder variable names and non-secret examples.
+
+============================================================
+EXTRA LEARNING NOTES AND FOLLOW-UP CLARIFICATIONS
+============================================================
+
+A. Attention in one short example
+Sentence: "The cat sat on the mat because it was tired."
+When processing "it", attention can help the model combine information from other positions, potentially including "cat." The actual result depends on learned parameters and context. Q/K/V are vectors produced by learned projections, not literal labels attached to words.
+
+B. Next-token generation loop
+1. Tokenize the prompt.
+2. Run the model on the current token sequence.
+3. Get scores/logits for possible next tokens.
+4. Convert scores to probabilities as required by the decoding method.
+5. Select a token.
+6. Append the token to the sequence.
+7. Repeat until stop criteria.
+8. Decode token IDs into readable text.
+
+C. Why not just give the model every document?
+A large collection may exceed context limits, increase cost and latency, and distract the model with irrelevant content. Retrieval aims to provide a smaller set of relevant passages. But retrieval introduces its own failure modes and needs evaluation.
+
+D. Why not fine-tune on all the documents?
+Fine-tuning changes model behavior/weights; it does not automatically give reliable, up-to-date citations or make the model a searchable database. For frequently updated facts and source attribution, RAG is often a better starting point. Some systems combine both.
+
+E. Why use a vector database?
+It stores embeddings and supports similarity search, often alongside metadata filters and persistence. For a tiny prototype, a simple in-memory index can be enough. Use a database when persistence, filtering, scale or operational needs justify it.
+
+F. What does "hallucination" mean?
+A generated claim that is unsupported or incorrect. It may sound confident. Reduce risk with better evidence, retrieval, constrained tools, validation, evaluation and a clear abstention behavior. No single technique guarantees zero hallucinations.
+
+G. What is an AI agent vs a chatbot?
+A chatbot can answer directly from a prompt. An agentic workflow can select tools, observe their outputs and continue through a task. In practice the boundary is not absolute; what matters is the application's actual control flow and permissions.
+
+H. What is a model vs an application?
+The model is one component. The application also includes prompts, retrieval, tools, APIs, authorization, UI, error handling, evaluation, logging and deployment. Many AI failures are application/integration failures rather than model failures alone.
+
+============================================================
+GLOSSARY
+============================================================
+
+AI — Artificial Intelligence.
+ML — Machine Learning.
+DL — Deep Learning.
+NN — Neural Network.
+CNN — Convolutional Neural Network.
+RNN — Recurrent Neural Network.
+LSTM/GRU — RNN variants designed to handle sequential information.
+Transformer — Neural-network architecture built around attention and related components.
+LLM — Large Language Model.
+GenAI — Generative AI.
+Token — A tokenizer-defined unit of text or other input.
+Tokenizer — Converts text to token IDs and back.
+Parameter — A learned numerical value in a model.
+Training — Optimization of model parameters using training data/objectives.
+Inference — Using a trained model to produce outputs.
+Attention — Mechanism for combining information across positions.
+Query/Key/Value — Learned vector representations used in attention.
+Embedding — Numerical vector representation of an item.
+Context window — Model's supported token context for a request.
+Temperature — Sampling parameter affecting output variation.
+Prompt — Instructions and context supplied to a model.
+RAG — Retrieval-Augmented Generation.
+Chunk — A segment of a document used for indexing/retrieval.
+Vector store/database — System for storing embeddings and searching by similarity.
+Similarity search — Ranking items using a similarity/distance measure.
+Top-k — Number of highest-ranked candidates selected.
+Hybrid search — Combination of keyword and semantic retrieval.
+Reranker — Model or method that reorders candidates for a query.
+Metadata — Structured information about a document/chunk.
+Groundedness — Whether generated claims are supported by evidence.
+Hallucination — Unsupported or incorrect generated content.
+Hugging Face — Ecosystem and hub for models, datasets and ML tooling.
+Transformers — Library supporting many Transformer model architectures.
+LangChain — Framework/ecosystem for building model-connected applications.
+LangGraph — Framework for stateful graph-based AI workflows.
+Agent — Application pattern in which a model selects/coordinates actions.
+Tool calling/function calling — Model requests a structured tool/action.
+Guardrail — Application control that limits or validates behavior.
+MCP — Model Context Protocol, a standard for connecting compatible AI clients and servers to tools/context.
+Open-weight — Model weights are available under a specified license.
+Quantization — Representing values at lower precision to reduce resource use.
+SFT — Supervised Fine-Tuning.
+PEFT — Parameter-Efficient Fine-Tuning.
+LoRA — Low-Rank Adaptation.
+QLoRA — Quantized base-model adaptation using LoRA-style training.
+RLHF — Reinforcement Learning from Human Feedback.
+DPO — Direct Preference Optimization.
+Multimodal — Working with multiple modalities such as text, image and audio.
+VLM — Vision-Language Model.
+OCR — Optical Character Recognition.
+ASR/STT — Speech/audio to text.
+TTS — Text to speech.
+VAD — Voice Activity Detection.
+Diarization — Estimating who spoke when.
+LLMOps — Engineering practices for operating LLM-powered applications.
+Observability — Logs, metrics and traces used to understand system behavior.
+Latency — Time taken to complete a request.
+Streaming — Delivering generated output incrementally.
+Prompt injection — Untrusted content attempting to manipulate model/application behavior.
+Least privilege — Give each component only the access it needs.
+Evaluation set — Fixed examples used to test system behavior and regressions.
+
+============================================================
+FINAL REVISION CHECKLIST
+============================================================
+
+Try explaining each of these aloud without reading:
+[ ] What is the difference between AI, ML, deep learning and an LLM?
+[ ] How does next-token generation work?
+[ ] Why is a token not always a word?
+[ ] Explain Q/K/V using an analogy and the attention flow.
+[ ] What are embeddings, and why do they help semantic search?
+[ ] Describe RAG ingestion and query pipelines.
+[ ] Explain chunk size, top-k, hybrid search and reranking.
+[ ] When would LangGraph help?
+[ ] What happens during a tool call, and who executes the tool?
+[ ] What does MCP standardize?
+[ ] Explain open-weight models and quantization trade-offs.
+[ ] When should you use prompting, RAG or fine-tuning?
+[ ] Name common audio/vision tasks and their limitations.
+[ ] What should you measure in a production LLM application?
+[ ] How would you defend against prompt injection and unsafe tools?
+[ ] What are the first three milestones of DevMind?
+
+FINAL REMINDER
+Build small, working versions. Test with examples where the correct answer is known. Keep evidence and source references. Treat model output as something to validate—not as automatically correct. Use current official documentation for changing library APIs, model licenses, provider limits and MCP implementations.

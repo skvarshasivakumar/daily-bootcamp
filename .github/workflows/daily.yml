@@ -1,0 +1,18 @@
+name: Daily bootcamp email
+on:
+  schedule:
+    - cron: "30 1 * * *"   # 01:30 UTC = 7:00 AM India time
+  workflow_dispatch:        # lets you press "Run workflow" to test
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python send_daily.py
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          START_DATE: ${{ vars.START_DATE }}

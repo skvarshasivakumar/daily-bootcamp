@@ -1,0 +1,202 @@
+============================================================
+DAY 1 — LLM FUNDAMENTALS, TOKENS, TRANSFORMERS AND ATTENTION
+============================================================
+
+1. AI, ML, deep learning and generative AI
+
+Artificial Intelligence (AI) is the broad field of building systems that perform tasks associated with intelligent behavior.
+Machine Learning (ML) is a way of building systems that learn patterns from data rather than relying only on manually written rules.
+Deep Learning uses neural networks with many learned layers.
+Generative AI creates new content: text, code, images, audio, video, and more.
+An LLM (large language model) is a model trained to work with language tokens; many modern LLMs are Transformer-based.
+
+A useful learning map:
+AI
+  └── Machine Learning
+       └── Deep Learning
+            └── Neural networks
+                 └── Transformer architecture (one family of neural-network architecture)
+
+This is a simplified learning map, not a strict statement that every AI method belongs to every nested category.
+
+2. Neural networks, CNNs, RNNs and Transformers
+
+A neural network consists of mathematical operations arranged in layers. Training adjusts parameters (learned numerical values) so that the network performs better on its objective.
+
+CNN — Convolutional Neural Network:
+- Often useful for images and spatial patterns.
+- Early layers can learn edges/textures; later layers can combine them into shapes and object parts.
+- Example: a vision model recognizing a cat from image features.
+
+RNN — Recurrent Neural Network:
+- Designed to process a sequence while carrying a hidden state from one step to the next.
+- Historically used for language and time-series data.
+- LSTM and GRU are variants designed to help preserve useful information over longer sequences.
+- Sequential processing can make parallel training harder than with many Transformer designs.
+
+Transformer:
+- Uses attention to let tokens combine information from other relevant tokens.
+- Enables parallel processing of many input positions during training.
+- Underlies many modern LLMs, though not every language model uses the same architecture.
+
+3. What is an LLM doing?
+
+A common training objective is to predict the next token in a sequence. During generation, the model repeatedly estimates which token is likely to come next, chooses a token according to a decoding strategy, appends it to the sequence, and repeats.
+
+Example:
+Prompt: "The sky is"
+Possible next-token distribution (illustrative only):
+- " blue" — 0.62
+- " clear" — 0.15
+- " dark" — 0.08
+- other tokens — 0.15
+
+If the selected token is " blue", the sequence becomes:
+"The sky is blue"
+
+The model then processes the updated context and predicts another token. It continues until a stop condition is reached, such as an end token, a maximum token limit, or an application stop rule.
+
+Important clarification:
+- The model predicts tokens, not necessarily whole words or complete ideas in one step.
+- One token can be a whole word, a word fragment, punctuation, whitespace attached to text, or another tokenizer-specific unit.
+- The model does not literally plan a whole paragraph in one next-token operation. It generates step by step, although its learned representations can encode broader patterns.
+
+4. What is a token?
+
+A token is a unit produced by a tokenizer. The exact units depend on the model and tokenizer.
+Examples of possible token splits:
+- "playing" might be one token for one tokenizer, or split into "play" + "ing" for another.
+- Punctuation and spaces can affect tokenization.
+- Code, unusual names, emoji and non-English text can tokenize differently from ordinary English.
+
+Do not assume:
+- one word = one token;
+- one character = one token;
+- different models always tokenize the same text identically.
+
+Why tokens matter:
+- Context limits are measured in tokens.
+- API costs are often tied to input/output tokens.
+- More tokens can mean greater latency and cost.
+- A longer prompt is not automatically a better prompt; relevance and clarity matter.
+
+Mini-exercise:
+1. Is a whole sentence always one token? No.
+2. Does every word always equal one token? No; tokenization depends on the tokenizer.
+3. Why do tokens matter? They affect context capacity, cost and sometimes latency.
+
+5. Parameters, training and inference
+
+Parameters are learned numerical values inside a model. A model described as 7B has roughly seven billion parameters; that does not mean it has a seven-billion-token context window.
+
+Training:
+- The model processes many examples.
+- A training objective measures how well it predicts or performs.
+- An optimization procedure adjusts parameters.
+- This process is computationally expensive for large models.
+
+Inference:
+- The trained model is used to produce a result for a new input.
+- Inference includes processing the prompt and generating output.
+- The application may also spend time on retrieval, tool calls, validation and network requests.
+
+6. What is attention?
+
+Attention lets a token use information from other tokens in its context. For example, in "I put the cup on the table because it was wobbly," the token "it" may need to relate to "table" or "cup" depending on context. Attention provides a learned mechanism for computing relationships; it does not guarantee perfect understanding.
+
+The Query–Key–Value (Q/K/V) explanation:
+- Query (Q): a representation of what the current token is looking for.
+- Key (K): a representation used to determine how relevant another token may be.
+- Value (V): the information that token can contribute if it receives attention.
+
+Think of a library search:
+- Query = your search question.
+- Keys = labels/descriptions that help match books to the question.
+- Values = the useful contents you retrieve from matching books.
+
+Simplified flow:
+Current token → Query
+All tokens → Keys and Values
+Query compared with Keys → relevance scores
+Scores normalized into attention weights
+Weights applied to Values → combined information used by the model
+
+The formula is often represented as:
+Attention(Q, K, V) = softmax(QKᵀ / √dₖ)V
+
+What the symbols mean:
+- QKᵀ: similarity-like scores between queries and keys.
+- √dₖ: scaling factor that helps control score magnitude.
+- softmax: converts scores into normalized weights.
+- Multiply by V: combine value vectors using those weights.
+
+This is an explanatory simplification. In real Transformer blocks, Q/K/V are learned vector projections, and attention is performed across heads and positions.
+
+7. Embeddings
+
+An embedding is a list of numbers representing a token, sentence, paragraph, image or other item in a vector space.
+An embedding model maps similar items to vectors that can be close under a similarity metric.
+
+Example idea:
+- "How do I reset my password?"
+- "I forgot my login password; how can I change it?"
+These sentences may have similar embeddings because they express related meaning.
+
+Embeddings are useful for semantic search and RAG. They are not a perfect representation of meaning, and similarity does not prove that two statements are identical or true.
+
+8. Context window
+
+The context window is the amount of tokenized input/output context a model can handle for a request, according to its particular limits.
+The context can include:
+- system/developer instructions;
+- conversation history;
+- current user prompt;
+- retrieved document chunks;
+- tool results;
+- generated output (depending on the model/API's accounting).
+
+If too much text is supplied, the application may need to shorten, summarize, or retrieve only relevant portions.
+
+9. Temperature and generation
+
+Temperature adjusts how sharply or broadly the model samples from possible next tokens in sampling-based decoding:
+- Lower temperature tends to make choices more concentrated around high-probability tokens.
+- Higher temperature tends to allow more variation.
+- It does not make a model more knowledgeable, and it does not guarantee factuality.
+- Some decoding configurations use greedy or other strategies where temperature may not apply.
+
+10. Prompting basics
+
+A useful prompt often specifies:
+- role/task;
+- context;
+- constraints;
+- expected format;
+- examples if needed;
+- what to do when information is missing.
+
+Example:
+Weak: "Explain APIs."
+Better: "Explain REST APIs to a beginner using a food-ordering analogy, then show one short HTTP request/response example. Keep the answer under 250 words and identify any simplifications."
+
+Structured output means requesting data in a defined format, such as JSON. The application must still validate the output; a prompt alone is not a security boundary.
+
+DAY 1 MINI-PROJECT — LLM PLAYGROUND
+Build a small Python script that accepts a prompt and prints:
+- selected model;
+- prompt;
+- response;
+- elapsed time;
+- token usage if the provider exposes it.
+
+Conceptual flow:
+User prompt → model/API request → response + metadata → display results
+
+Measure time with Python's time module. Do not hard-code API secrets in source code or commit them to Git. Read credentials from environment variables or a secret manager. If using a provider SDK, use its current documented API and check the installed package version.
+
+Day 1 check:
+- Explain token vs parameter.
+- Explain training vs inference.
+- Describe the next-token loop.
+- Explain Q/K/V without saying that they are literal English words inside the model.
+- Explain why token count affects cost/context.

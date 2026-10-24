@@ -1,0 +1,69 @@
+============================================================
+DAY 6 — AI AGENTS, TOOL CALLING AND GUARDRAILS
+============================================================
+
+1. What is an AI agent?
+
+An agentic application uses a model to select or sequence actions toward a goal. The model may decide to call tools, inspect results, and continue. The surrounding application controls which tools exist, validates arguments and executes permitted operations.
+
+An agent is not simply a model with unrestricted access to a computer. Safe tool execution requires application code, permissions and boundaries.
+
+2. Tool/function calling
+
+A tool is a capability exposed to the model through a schema, for example:
+- calculator;
+- search within an approved project directory;
+- read a permitted file;
+- query a read-only database;
+- retrieve a document.
+
+Typical flow:
+User request → model returns a tool-call request → application validates tool name and arguments → application executes authorized tool → result is returned to model → model responds or requests another permitted tool.
+
+Important: the model's tool call is a request, not proof that the operation is safe or authorized.
+
+3. ReAct-style loop
+
+ReAct is a pattern that interleaves reasoning/action selection and observation. In a practical application, do not expose private internal reasoning traces as a requirement. Instead, log concise, useful action records:
+- selected tool;
+- validated arguments;
+- tool result summary;
+- success/failure;
+- next action.
+
+4. Memory and state
+- Conversation state: current messages and recent context.
+- Task state: structured progress for a particular workflow.
+- Long-term memory: selected information stored across sessions, subject to user controls and privacy.
+- External knowledge: retrieved documents; this is not the same as conversational memory.
+
+Memory should be purposeful. Avoid storing sensitive information unnecessarily, and allow users to inspect or control retained data where appropriate.
+
+5. Human-in-the-loop
+Require human review for consequential actions, such as sending a message, deleting data, changing permissions, or making a financial/production change. Prefer read-only tools for initial prototypes.
+
+6. Guardrails
+- allowlist tool names;
+- validate every argument on the server;
+- restrict file paths to an approved directory;
+- use least-privilege credentials;
+- enforce timeouts and output-size limits;
+- treat retrieved content as untrusted;
+- ask for approval before consequential actions;
+- record audit logs without unnecessarily logging secrets or personal data.
+
+DAY 6 MINI-PROJECT — DEVELOPER ASSISTANT
+Build an assistant with:
+- calculator tool;
+- list files in a sample project;
+- search code in that sample project;
+- read a file only from that project directory.
+
+Do not start with shell execution, arbitrary file writes, or unrestricted network access. Add capabilities only after validation and tests.
+
+Example interaction:
+User: "Find where dependency injection is configured."
+Agent: requests `search_code` with a query.
+Application: checks the query and searches only the approved sample project.
+Tool: returns matching file names and excerpts.
+Agent: summarizes findings with file references.

@@ -1,0 +1,53 @@
+============================================================
+DAY 7 — MODEL CONTEXT PROTOCOL (MCP)
+============================================================
+
+1. What is MCP?
+
+Model Context Protocol is a standardized protocol for connecting AI applications to external tools and context providers. It is not an LLM and does not itself make an application intelligent. It standardizes how compatible clients and servers communicate about capabilities and requests.
+
+2. Core roles
+- Host: the AI application the user interacts with.
+- Client: the protocol component that connects to a server.
+- Server: exposes permitted capabilities.
+- Tools: actions a client can request a server to run.
+- Resources: contextual data a server can expose.
+- Prompts: reusable prompt templates or workflows exposed by a server, depending on implementation.
+
+Exact capabilities and transports depend on the MCP specification and implementation version. Check current official documentation before building production integrations.
+
+3. Example tool flow
+User asks: "Search my sample codebase for the player manager."
+Host/model determines that a code-search tool may help.
+MCP client sends a tool request to the configured server.
+Server validates and executes its search within its allowed scope.
+Server returns results.
+The model uses the results to formulate a response.
+
+The server should not treat a model request as authorization to exceed its configured permissions.
+
+4. MCP vs function calling vs LangChain/LangGraph
+- Function/tool calling: a model-facing mechanism for requesting a function/action.
+- MCP: a protocol for exposing and invoking tools/context across compatible clients and servers.
+- LangChain: a library/ecosystem for building model-connected applications.
+- LangGraph: a framework for stateful, graph-based execution workflows.
+These can be used together; they solve different problems.
+
+5. Read-only developer MCP server project
+Expose tools such as:
+- `list_project_files`;
+- `search_code`;
+- `read_project_file`.
+
+Security checklist:
+- limit all file operations to a sample directory;
+- normalize and resolve paths before use;
+- prevent `../` path traversal and symlink escapes;
+- deny access to environment files, private keys, credentials and other sensitive paths;
+- restrict file sizes and output lengths;
+- use read-only access initially;
+- log useful audit information without secrets;
+- test malicious and malformed arguments.
+
+DAY 7 MINI-PROJECT
+Create a small MCP server and connect it to a compatible client. Start with one tool, test success and error cases, then add the other read-only tools. Follow the current MCP SDK and official protocol docs rather than copying old examples blindly.

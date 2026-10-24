@@ -1,0 +1,76 @@
+============================================================
+DAY 2 — HUGGING FACE, TOKENIZERS AND MODEL INFERENCE
+============================================================
+
+1. What is Hugging Face?
+
+Hugging Face provides an ecosystem and Model Hub where developers can discover models, datasets and related resources. Its Transformers library offers common interfaces for loading many supported model architectures and running inference or training workflows.
+
+Important concepts:
+- Model Hub: repository/catalog for models and related files.
+- Model card: documentation about intended uses, limitations, evaluation and other details.
+- Tokenizer: converts text into model-specific token IDs and converts output token IDs back into text.
+- Dataset: organized examples used for training, evaluation or experimentation.
+- Pipeline: a high-level interface for common tasks.
+- Transformers library: tools for supported Transformer models and related tasks.
+
+2. What does "pre-trained" mean?
+
+A pre-trained model has already learned from an earlier training process. It can often be used directly, adapted through prompting, connected to retrieved knowledge, or fine-tuned for a task. Pre-trained does not mean universally accurate or safe.
+
+3. Hosted model vs local model
+
+Hosted inference:
+- Model runs on a provider's infrastructure.
+- Easier setup and access to larger models.
+- Requires network connectivity and careful handling of data, credentials, usage limits and cost.
+
+Local inference:
+- Model runs on your computer or controlled infrastructure.
+- Can improve control over data flow and reduce per-request external service use.
+- Limited by available RAM/VRAM, hardware, model size, speed and license.
+- "Local" does not automatically mean private if your application sends data elsewhere.
+
+4. Conceptual Transformers example
+
+Illustrative Python example (install the `transformers` package and a compatible backend such as PyTorch first; exact model availability and hardware requirements vary):
+
+    from transformers import pipeline
+
+    generator = pipeline(
+        "text-generation",
+        model="distilgpt2"
+    )
+
+    result = generator(
+        "Explain dependency injection in simple terms:",
+        max_new_tokens=80,
+        do_sample=False
+    )
+
+    print(result[0]["generated_text"])
+
+Notes:
+- This is a small demonstration model, not a recommendation for production quality.
+- The first run may download model files.
+- Model licensing and model-card guidance should be checked before using any model.
+- Different models support different tasks and input formats.
+
+5. Model selection checklist
+
+Before using a model, examine:
+- intended task and language;
+- quality/evaluation information;
+- context length;
+- model size and hardware requirements;
+- license and use restrictions;
+- security and safety limitations;
+- maintenance/activity and documentation;
+- latency and deployment requirements.
+
+DAY 2 MINI-PROJECT — PROMPT TESTER
+Make a small application with fields for model and prompt. Show output, response time, and token counts when available. Store results as structured records so you can compare model responses later. Do not assume every library/provider returns token usage in the same way.
+
+Mini-exercise:
+What is the difference between a tokenizer and an embedding model?
+Answer: A tokenizer maps text into token units/IDs for a model. An embedding model maps an input into a numerical vector intended to capture useful features or semantic relationships.
