@@ -1,0 +1,6080 @@
+[
+ {
+  "no": 1,
+  "title": "User Input/ Output",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": []
+ },
+ {
+  "no": 2,
+  "title": "Data Types",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": []
+ },
+ {
+  "no": 3,
+  "title": "If Else Statements",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/java-if-else-decision-making0924/0?category%5B%5D=Java&category%5B%5D=Java&difficulty%5B%5D=-2&page=1&query=category%5B%5DJavadifficulty%5B%5D-2page1category%5B%5DJava"
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "title": "Switch Statement",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/java-switch-case-statement3529/1"
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "title": "What are arrays, strings?",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": []
+ },
+ {
+  "no": 6,
+  "title": "For Loops",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": []
+ },
+ {
+  "no": 7,
+  "title": "While Loops",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/while-loop-printtable-java/1"
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "title": "Functions [Pass by Value and Pass by Reference]",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": []
+ },
+ {
+  "no": 9,
+  "title": "Time Complexity [Learn Basics, and then analyse in next Steps]",
+  "section": "Basics",
+  "sub": "Things to know in C++ /Java /Python or any language",
+  "links": []
+ },
+ {
+  "no": 10,
+  "title": "Do all these patterns",
+  "section": "Basics",
+  "sub": "Build Up Logical Thinking",
+  "links": []
+ },
+ {
+  "no": 11,
+  "title": "C++ STL",
+  "section": "Basics",
+  "sub": "Learn STL /Java Collection or similar thing in your language",
+  "links": []
+ },
+ {
+  "no": 12,
+  "title": "Java Collections",
+  "section": "Basics",
+  "sub": "Learn STL /Java Collection or similar thing in your language",
+  "links": []
+ },
+ {
+  "no": 13,
+  "title": "Count Digits",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-digits5716/1"
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "title": "Reverse a Number",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-integer/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-bits3556/1"
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "title": "Check Palindrome",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/palindrome-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/palindrome0746/1"
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "title": "GCD or HCF",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/lcm-and-gcd4516/1"
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "title": "Armstrong Number",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/armstrong-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1"
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "title": "Print all Divisor",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1"
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "title": "Check for Prime",
+  "section": "Basics",
+  "sub": "Know Basic Maths",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "title": "Understand recursion by print something N times",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "title": "Print name N times using recursion",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-gfg-n-times/1"
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "title": "Print 1 to N using recursion",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "title": "Print N to 1 using recursion",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-n-to-1-without-loop/1"
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "title": "Sum of first N numbers",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1"
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "title": "Factorial of N numbers",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/0?problemType=functional&difficulty[]=-1&page=1&query=problemTypefunctionaldifficulty[]-1page1"
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "title": "Reverse and Array",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-an-array/0"
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "title": "Check if a string is palindrome or not",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-palindrome/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/palindrome-string0817/1"
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "title": "Fibonacci Number",
+  "section": "Basics",
+  "sub": "Learn Basic Recursion",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/fibonacci-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1"
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "title": "Count Frequencies of Array Elements",
+  "section": "Basics",
+  "sub": "Learn Basic Hashing",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0"
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "title": "Find the Highest/Lowest Frequency Element",
+  "section": "Basics",
+  "sub": "Learn Basic Hashing",
+  "links": []
+ },
+ {
+  "no": 31,
+  "title": "Selection Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-I",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/selection-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 32,
+  "title": "Bubble Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-I",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bubble-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 33,
+  "title": "Insertion Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-I",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/insertion-sort/0?category[]=Algorithms&page=1&query=category[]Algorithmspage1"
+   }
+  ]
+ },
+ {
+  "no": 34,
+  "title": "Merge Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-II",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/merge-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 35,
+  "title": "Recursive Bubble Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-II",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bubble-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 36,
+  "title": "Recursive Insertion Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-II",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/insertion-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 37,
+  "title": "Quick Sort",
+  "section": "Sorting Techniques",
+  "sub": "Sorting-II",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/quick-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 38,
+  "title": "Largest Element in an Array",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/largest-element-in-array4009/0"
+   }
+  ]
+ },
+ {
+  "no": 39,
+  "title": "Second Largest Element in an Array without sorting",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/second-largest3735/1"
+   }
+  ]
+ },
+ {
+  "no": 40,
+  "title": "Check if the array is sorted",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1"
+   }
+  ]
+ },
+ {
+  "no": 41,
+  "title": "Remove duplicates from Sorted array",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1"
+   }
+  ]
+ },
+ {
+  "no": 42,
+  "title": "Left Rotate an array by one place",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotate-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/quick-left-rotation3806/1"
+   }
+  ]
+ },
+ {
+  "no": 43,
+  "title": "Left rotate an array by D places",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotate-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reversal-algorithm5340/1"
+   }
+  ]
+ },
+ {
+  "no": 44,
+  "title": "Move Zeros to end",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/move-zeroes/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1"
+   }
+  ]
+ },
+ {
+  "no": 45,
+  "title": "Linear Search",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/who-will-win-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 46,
+  "title": "Find the Union and intersection of two sorted arrays",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 47,
+  "title": "Find missing number in an array",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/missing-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/missing-number4257/1"
+   }
+  ]
+ },
+ {
+  "no": 48,
+  "title": "Maximum Consecutive Ones",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/max-consecutive-ones/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1"
+   }
+  ]
+ },
+ {
+  "no": 49,
+  "title": "Subarray with given sum",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1"
+   }
+  ]
+ },
+ {
+  "no": 50,
+  "title": "Find the Missing Number",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://www.geeksforgeeks.org/find-the-missing-number/"
+   }
+  ]
+ },
+ {
+  "no": 51,
+  "title": "Find the number that appears once, and other numbers twice.",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/single-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/element-appearing-once2552/0?company[]=Qualcomm&company[]=Qualcomm&difficulty[]=1&page=1&query=company[]Qualcommdifficulty[]1page1company[]Qualcomm"
+   }
+  ]
+ },
+ {
+  "no": 52,
+  "title": "Search an element in a 2D matrix",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1"
+   }
+  ]
+ },
+ {
+  "no": 53,
+  "title": "Find the row with maximum number of 1’s",
+  "section": "Arrays",
+  "sub": "Easy",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1"
+   }
+  ]
+ },
+ {
+  "no": 54,
+  "title": "2Sum Problem",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/two-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1"
+   }
+  ]
+ },
+ {
+  "no": 55,
+  "title": "Sort an array of 0’s 1’s and 2’s",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sort-colors/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1"
+   }
+  ]
+ },
+ {
+  "no": 56,
+  "title": "Majority Element (>n/2 times)",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/majority-element/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 57,
+  "title": "Kadane’s Algorithm, maximum subarray sum",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-subarray/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/0?company[]=Visa&company[]=Visa&page=2&query=company[]Visapage2company[]Visa"
+   }
+  ]
+ },
+ {
+  "no": 58,
+  "title": "Print subarray with maximum subarray sum (extended version of above problem)",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/0?category="
+   }
+  ]
+ },
+ {
+  "no": 59,
+  "title": "Stock Buy and Sell",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stock-buy-and-sell2615/0?company[]=Intuit+&page=1&query=company[]Intuit+page1"
+   }
+  ]
+ },
+ {
+  "no": 60,
+  "title": "Rearrange the array in alternating positive and negative items",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and-ve-nos1401/1"
+   }
+  ]
+ },
+ {
+  "no": 61,
+  "title": "Next Permutation",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/next-permutation/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/next-permutation5226/1"
+   }
+  ]
+ },
+ {
+  "no": 62,
+  "title": "Leaders in an Array problem",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 63,
+  "title": "Longest Consecutive Sequence in an Array",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/solution/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/0?problemType=functional&page=1&query=problemTypefunctionalpage1"
+   }
+  ]
+ },
+ {
+  "no": 64,
+  "title": "Set Matrix Zeros",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/make-zeroes4042/1"
+   }
+  ]
+ },
+ {
+  "no": 65,
+  "title": "Rotate Matrix by 90 degrees",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotate-image/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 66,
+  "title": "Print the matrix in spiral manner",
+  "section": "Arrays",
+  "sub": "Medium",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/spiral-matrix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/cd61add036272faa69c6814e34aa7007d5a25aa6/1"
+   }
+  ]
+ },
+ {
+  "no": 67,
+  "title": "Pascal’s Triangle",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/pascals-triangle/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1"
+   }
+  ]
+ },
+ {
+  "no": 68,
+  "title": "Majority Element (n/3 times)",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/majority-element-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/majority-vote/1"
+   }
+  ]
+ },
+ {
+  "no": 69,
+  "title": "3-Sum Problem",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/3sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/3-sum-closest/1"
+   }
+  ]
+ },
+ {
+  "no": 70,
+  "title": "4-Sum Problem",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/4sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1"
+   }
+  ]
+ },
+ {
+  "no": 71,
+  "title": "Largest Subarray with 0 Sum",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?category[]=Hash&category[]=Hash&company[]=Amazon&company[]=Amazon&page=1&query=category[]Hashcompany[]Amazonpage1company[]Amazoncategory[]Hash"
+   }
+  ]
+ },
+ {
+  "no": 72,
+  "title": "Count number of subarrays with given xor K",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/subsets-with-xor-value2023/1"
+   }
+  ]
+ },
+ {
+  "no": 73,
+  "title": "Merge Overlapping Subintervals",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/merge-intervals/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1"
+   }
+  ]
+ },
+ {
+  "no": 74,
+  "title": "Merge two sorted arrays without extra space",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/merge-sorted-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1?company[]=Synopsys&company[]=Synopsys&page=1&query=company[]Synopsyspage1company[]Synopsys"
+   }
+  ]
+ },
+ {
+  "no": 75,
+  "title": "Find the repeating and missing number",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1"
+   }
+  ]
+ },
+ {
+  "no": 76,
+  "title": "Count Inversions",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 77,
+  "title": "Reverse Pairs",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-pairs/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1"
+   }
+  ]
+ },
+ {
+  "no": 78,
+  "title": "Maximum Product Subarray",
+  "section": "Arrays",
+  "sub": "Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/0?qa-rewrite=3336/print-all-valid-combinations-of-ip-address&show=3350"
+   }
+  ]
+ },
+ {
+  "no": 79,
+  "title": "Binary Search to find X in sorted array",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-search/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 80,
+  "title": "Implement Lower Bound",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?track=DSASP-Searching&amp%3BbatchId=154"
+   }
+  ]
+ },
+ {
+  "no": 81,
+  "title": "Implement Upper Bound",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/ceil-the-floor2802/1"
+   }
+  ]
+ },
+ {
+  "no": 82,
+  "title": "Search Insert Position",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/search-insert-position-of-k-in-a-sorted-array/1"
+   }
+  ]
+ },
+ {
+  "no": 83,
+  "title": "Check if Input array is sorted",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1"
+   }
+  ]
+ },
+ {
+  "no": 84,
+  "title": "Find the first or last occurrence of a given number in a sorted array",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1"
+   }
+  ]
+ },
+ {
+  "no": 85,
+  "title": "Count occurrences of a number in a sorted array with duplicates",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1"
+   }
+  ]
+ },
+ {
+  "no": 86,
+  "title": "Find peak element",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/peak-element/1"
+   }
+  ]
+ },
+ {
+  "no": 87,
+  "title": "Search in Rotated Sorted Array I",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/peak-element/1"
+   }
+  ]
+ },
+ {
+  "no": 88,
+  "title": "Search in Rotated Sorted Array II",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/search-in-rotated-array-2/1"
+   }
+  ]
+ },
+ {
+  "no": 89,
+  "title": "Find minimum in Rotated Sorted Array",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1"
+   }
+  ]
+ },
+ {
+  "no": 90,
+  "title": "Single element in a Sorted Array",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1"
+   }
+  ]
+ },
+ {
+  "no": 91,
+  "title": "Find kth element of two sorted arrays",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1"
+   }
+  ]
+ },
+ {
+  "no": 92,
+  "title": "Find out how many times has an array been rotated",
+  "section": "Binary Search",
+  "sub": "Learning BS on 1D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rotation4723/1"
+   }
+  ]
+ },
+ {
+  "no": 93,
+  "title": "Search in a 2D matrix",
+  "section": "Binary Search",
+  "sub": "Applying BS on 2D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1"
+   }
+  ]
+ },
+ {
+  "no": 94,
+  "title": "Find Peak Element",
+  "section": "Binary Search",
+  "sub": "Applying BS on 2D Arrays",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-a-peak-element-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/peak-element/1"
+   }
+  ]
+ },
+ {
+  "no": 95,
+  "title": "Matrix Median",
+  "section": "Binary Search",
+  "sub": "Applying BS on 2D Arrays",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1"
+   }
+  ]
+ },
+ {
+  "no": 96,
+  "title": "Find square root of a number in log n",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/square-root/0"
+   }
+  ]
+ },
+ {
+  "no": 97,
+  "title": "Find the Nth root of a number using binary search",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1"
+   }
+  ]
+ },
+ {
+  "no": 98,
+  "title": "Koko Eating Bananas",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/koko-eating-bananas/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/koko-eating-bananas/1"
+   }
+  ]
+ },
+ {
+  "no": 99,
+  "title": "Minimum days to make M bouquets",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+   }
+  ]
+ },
+ {
+  "no": 100,
+  "title": "Find the smallest Divisor",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+   }
+  ]
+ },
+ {
+  "no": 101,
+  "title": "Capacity to Ship Packages within D Days",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1"
+   }
+  ]
+ },
+ {
+  "no": 102,
+  "title": "Median of two sorted arrays",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1"
+   }
+  ]
+ },
+ {
+  "no": 103,
+  "title": "Aggressive Cows",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": []
+ },
+ {
+  "no": 104,
+  "title": "Book Allocation Problem",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1"
+   }
+  ]
+ },
+ {
+  "no": 105,
+  "title": "Split array – Largest Sum",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/split-array-largest-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1"
+   }
+  ]
+ },
+ {
+  "no": 106,
+  "title": "Kth Missing Positive Number",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/k-th-missing-element3635/1"
+   }
+  ]
+ },
+ {
+  "no": 107,
+  "title": "Minimize Max Distance to Gas Station",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/"
+   }
+  ]
+ },
+ {
+  "no": 108,
+  "title": "Median of 2 sorted arrays",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1"
+   }
+  ]
+ },
+ {
+  "no": 109,
+  "title": "Kth element of 2 sorted arrays",
+  "section": "Binary Search",
+  "sub": "Final Answers by BS in Search Space",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1"
+   }
+  ]
+ },
+ {
+  "no": 110,
+  "title": "Remove outermost Paranthesis",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/remove-outermost-parentheses/"
+   }
+  ]
+ },
+ {
+  "no": 111,
+  "title": "Reverse words in a given string / Palindrome Check",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-words-in-a-string/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1"
+   }
+  ]
+ },
+ {
+  "no": 112,
+  "title": "Largest odd number in a string",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/largest-odd-number-in-string/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/largest-odd-number-in-string/1"
+   }
+  ]
+ },
+ {
+  "no": 113,
+  "title": "Longest Common Prefix",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-common-prefix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1"
+   }
+  ]
+ },
+ {
+  "no": 114,
+  "title": "Isomorphic String",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/isomorphic-strings/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 115,
+  "title": "Check whether one string is a rotation of another",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotate-string/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 116,
+  "title": "Check if two strings are anagram of each other",
+  "section": "Strings",
+  "sub": "Basic and Easy String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/anagram-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 117,
+  "title": "Sort Characters by frequency",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sort-characters-by-frequency/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0"
+   }
+  ]
+ },
+ {
+  "no": 118,
+  "title": "Maximum Nesting Depth of Paranthesis",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-nesting-depth-of-the-parentheses/1"
+   }
+  ]
+ },
+ {
+  "no": 119,
+  "title": "Roman Number to Integer and vice versa",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/roman-to-integer/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1"
+   }
+  ]
+ },
+ {
+  "no": 120,
+  "title": "Implement Atoi",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implement-atoi/1"
+   }
+  ]
+ },
+ {
+  "no": 121,
+  "title": "Count Number of Substrings",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-number-of-substrings4528/1"
+   }
+  ]
+ },
+ {
+  "no": 122,
+  "title": "Longest Palindromic Substring[Do it without DP]",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 123,
+  "title": "Sum of Beauty of all substring",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1"
+   }
+  ]
+ },
+ {
+  "no": 124,
+  "title": "Reverse Every Word in A String",
+  "section": "Strings",
+  "sub": "Medium String Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-words-in-a-string/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1"
+   }
+  ]
+ },
+ {
+  "no": 125,
+  "title": "Introduction to LinkedList, learn about struct, and how is node represented",
+  "section": "Linked List",
+  "sub": "Learn 1D Linked List",
+  "links": []
+ },
+ {
+  "no": 126,
+  "title": "Inserting a node in LinkedList",
+  "section": "Linked List",
+  "sub": "Learn 1D Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0"
+   }
+  ]
+ },
+ {
+  "no": 127,
+  "title": "Deleting a node in LinkedList",
+  "section": "Linked List",
+  "sub": "Learn 1D Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 128,
+  "title": "Find the length of the linkedlist [Learn traversal]",
+  "section": "Linked List",
+  "sub": "Learn 1D Linked List",
+  "links": []
+ },
+ {
+  "no": 129,
+  "title": "Search an element in the linkedList",
+  "section": "Linked List",
+  "sub": "Learn 1D Linked List",
+  "links": []
+ },
+ {
+  "no": 130,
+  "title": "Introduction to DLL, learn about struct, and how is node represented",
+  "section": "Linked List",
+  "sub": "Learn Doubly Linked List",
+  "links": []
+ },
+ {
+  "no": 131,
+  "title": "Insert a node in DLL",
+  "section": "Linked List",
+  "sub": "Learn Doubly Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 132,
+  "title": "Delete a node in DLL",
+  "section": "Linked List",
+  "sub": "Learn Doubly Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/closest-number5728/1"
+   }
+  ]
+ },
+ {
+  "no": 133,
+  "title": "Reverse a DLL",
+  "section": "Linked List",
+  "sub": "Learn Doubly Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 134,
+  "title": "Middle of a LinkedList [Tortoise Hare Method]",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 135,
+  "title": "Reverse a LinkedList [Iterative]",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 136,
+  "title": "Reverse a LL [Recursive]",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 137,
+  "title": "Detect a loop in LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/linked-list-cycle/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions"
+   }
+  ]
+ },
+ {
+  "no": 138,
+  "title": "Find the starting point in LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/linked-list-cycle-ii/"
+   }
+  ]
+ },
+ {
+  "no": 139,
+  "title": "Length of Loop in LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-length-of-loop/1"
+   }
+  ]
+ },
+ {
+  "no": 140,
+  "title": "Check if LL is palindrome or not",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/palindrome-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1"
+   }
+  ]
+ },
+ {
+  "no": 141,
+  "title": "Segrregate odd and even nodes in LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/odd-even-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1"
+   }
+  ]
+ },
+ {
+  "no": 142,
+  "title": "Remove Nth node from the back of the LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions"
+   }
+  ]
+ },
+ {
+  "no": 143,
+  "title": "Delete the middle node of LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/delete-middle-of-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 144,
+  "title": "Sort LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sort-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1"
+   }
+  ]
+ },
+ {
+  "no": 145,
+  "title": "Sort a LL of 0’s 1’s and 2’s by changing links",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1"
+   }
+  ]
+ },
+ {
+  "no": 146,
+  "title": "Find the intersection point of Y LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 147,
+  "title": "Add 1 to a number represented by LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 148,
+  "title": "Add 2 numbers in LL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/add-two-numbers/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1"
+   }
+  ]
+ },
+ {
+  "no": 149,
+  "title": "Delete all occurrences of a key in DLL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Doubly Linked List",
+  "links": []
+ },
+ {
+  "no": 150,
+  "title": "Find pairs with given sum in DLL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Doubly Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 151,
+  "title": "Remove duplicates from sorted DLL",
+  "section": "Linked List",
+  "sub": "Medium Problems on Doubly Linked List",
+  "links": []
+ },
+ {
+  "no": 152,
+  "title": "Reverse LL in group of given size K",
+  "section": "Linked List",
+  "sub": "Hard Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 153,
+  "title": "Rotate a LL",
+  "section": "Linked List",
+  "sub": "Hard Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotate-list/description/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 154,
+  "title": "Flattening of LL",
+  "section": "Linked List",
+  "sub": "Hard Problems on Linked List",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 155,
+  "title": "Clone a Linked List with random and next pointer",
+  "section": "Linked List",
+  "sub": "Hard Problems on Linked List",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1"
+   }
+  ]
+ },
+ {
+  "no": 156,
+  "title": "Recursive Implementation of atoi()",
+  "section": "Recursion",
+  "sub": "Get a Strong Hold",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implement-atoi/1"
+   }
+  ]
+ },
+ {
+  "no": 157,
+  "title": "Pow(x, n)",
+  "section": "Recursion",
+  "sub": "Get a Strong Hold",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/powx-n/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 158,
+  "title": "Count Good numbers",
+  "section": "Recursion",
+  "sub": "Get a Strong Hold",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/count-good-numbers/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/good-numbers4629/1"
+   }
+  ]
+ },
+ {
+  "no": 159,
+  "title": "Sort a stack using recursion",
+  "section": "Recursion",
+  "sub": "Get a Strong Hold",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sort-a-stack/1"
+   }
+  ]
+ },
+ {
+  "no": 160,
+  "title": "Reverse a stack using recursion",
+  "section": "Recursion",
+  "sub": "Get a Strong Hold",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-a-stack/1"
+   }
+  ]
+ },
+ {
+  "no": 161,
+  "title": "Generate all binary strings",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/"
+   }
+  ]
+ },
+ {
+  "no": 162,
+  "title": "Generate Paranthesis",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/generate-parentheses/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1"
+   }
+  ]
+ },
+ {
+  "no": 163,
+  "title": "Print all subsequences/Power Set",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/subsets/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/power-set4302/1"
+   }
+  ]
+ },
+ {
+  "no": 164,
+  "title": "Learn All Patterns of Subsequences (Theory)",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": []
+ },
+ {
+  "no": 165,
+  "title": "Count all subsequences with sum K",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1"
+   }
+  ]
+ },
+ {
+  "no": 166,
+  "title": "Check if there exists a subsequence with sum K",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": []
+ },
+ {
+  "no": 167,
+  "title": "Combination Sum",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/combination-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 168,
+  "title": "Combination Sum-II",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/combination-sum-ii/"
+   }
+  ]
+ },
+ {
+  "no": 169,
+  "title": "Combination Sum – III",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/combination-sum-iii/"
+   }
+  ]
+ },
+ {
+  "no": 170,
+  "title": "Subset Sum-I",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/subset-sums2234/1"
+   }
+  ]
+ },
+ {
+  "no": 171,
+  "title": "Subset Sum-II",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/subsets-ii/"
+   }
+  ]
+ },
+ {
+  "no": 172,
+  "title": "Letter Combinations of a Phone number",
+  "section": "Recursion",
+  "sub": "Subsequences Pattern",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 173,
+  "title": "Palindrome Partitioning",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/palindrome-partitioning/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1"
+   }
+  ]
+ },
+ {
+  "no": 174,
+  "title": "Word Search",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/word-search/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/word-search/1"
+   }
+  ]
+ },
+ {
+  "no": 175,
+  "title": "N Queen",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/n-queens/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1"
+   }
+  ]
+ },
+ {
+  "no": 176,
+  "title": "Rat in a Maze",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+   }
+  ]
+ },
+ {
+  "no": 177,
+  "title": "Word Break",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/word-break/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/word-break-part-23249/1"
+   }
+  ]
+ },
+ {
+  "no": 178,
+  "title": "M Coloring Problem",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 179,
+  "title": "Sudoko Solver",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sudoku-solver/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 180,
+  "title": "Expression Add Operators",
+  "section": "Recursion",
+  "sub": "Try out all Combos /Hard",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/expression-add-operators/"
+   }
+  ]
+ },
+ {
+  "no": 181,
+  "title": "Introduction to Bit Manipulation [Theory]",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": []
+ },
+ {
+  "no": 182,
+  "title": "Check if the i-th bit is set or not",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 183,
+  "title": "Check if a number is odd or not",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/odd-or-even3618/1"
+   }
+  ]
+ },
+ {
+  "no": 184,
+  "title": "Check if a number is power of 2 or not",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/power-of-two/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 185,
+  "title": "Count the number of set bits",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 186,
+  "title": "Set/Unset the rightmost unset bit",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1"
+   }
+  ]
+ },
+ {
+  "no": 187,
+  "title": "Swap two numbers",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/swap-two-numbers3844/1"
+   }
+  ]
+ },
+ {
+  "no": 188,
+  "title": "Divide two integers without using multiplication, division and mod operator",
+  "section": "Bit Manipulation",
+  "sub": "Learn Bit Manipulation",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/divide-two-integers/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0"
+   }
+  ]
+ },
+ {
+  "no": 189,
+  "title": "Count number of bits to be flipped to convert A to B",
+  "section": "Bit Manipulation",
+  "sub": "Interview Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 190,
+  "title": "Find the number that appears odd number of times",
+  "section": "Bit Manipulation",
+  "sub": "Interview Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/single-number/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-the-odd-occurence4820/1"
+   }
+  ]
+ },
+ {
+  "no": 191,
+  "title": "Power Set",
+  "section": "Bit Manipulation",
+  "sub": "Interview Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/subsets/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/power-set4302/1"
+   }
+  ]
+ },
+ {
+  "no": 192,
+  "title": "Find xor of numbers from L to R",
+  "section": "Bit Manipulation",
+  "sub": "Interview Problems",
+  "links": []
+ },
+ {
+  "no": 193,
+  "title": "Find the two numbers appearing odd number of times",
+  "section": "Bit Manipulation",
+  "sub": "Interview Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/two-numbers-with-odd-occurrences5846/1"
+   }
+  ]
+ },
+ {
+  "no": 194,
+  "title": "Print Prime Factors of a Number",
+  "section": "Bit Manipulation",
+  "sub": "Advanced Maths",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/prime-factors5052/1"
+   }
+  ]
+ },
+ {
+  "no": 195,
+  "title": "All Divisors of a Number",
+  "section": "Bit Manipulation",
+  "sub": "Advanced Maths",
+  "links": []
+ },
+ {
+  "no": 196,
+  "title": "Sieve of Eratosthenes",
+  "section": "Bit Manipulation",
+  "sub": "Advanced Maths",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/count-primes/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1"
+   }
+  ]
+ },
+ {
+  "no": 197,
+  "title": "Find Prime Factorisation of a Number using Sieve",
+  "section": "Bit Manipulation",
+  "sub": "Advanced Maths",
+  "links": []
+ },
+ {
+  "no": 198,
+  "title": "Power(n, x)",
+  "section": "Bit Manipulation",
+  "sub": "Advanced Maths",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/powx-n/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 199,
+  "title": "Implement Stack using Arrays",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1"
+   }
+  ]
+ },
+ {
+  "no": 200,
+  "title": "Implement Queue using Arrays",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1"
+   }
+  ]
+ },
+ {
+  "no": 201,
+  "title": "Implement Stack using Queue",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/implement-stack-using-queues/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1"
+   }
+  ]
+ },
+ {
+  "no": 202,
+  "title": "Implement Queue using Stack",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/queue-using-stack/1"
+   }
+  ]
+ },
+ {
+  "no": 203,
+  "title": "Implement stack using Linkedlist",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 204,
+  "title": "Implement queue using Linkedlist",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 205,
+  "title": "Check for balanced paranthesis",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-parentheses/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1"
+   }
+  ]
+ },
+ {
+  "no": 206,
+  "title": "Implement Min Stack",
+  "section": "Stack & Queue",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/min-stack/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1"
+   }
+  ]
+ },
+ {
+  "no": 207,
+  "title": "Infix to Postfix Conversion using Stack",
+  "section": "Stack & Queue",
+  "sub": "Prefix, Infix, Postfix Conversion Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 208,
+  "title": "Prefix to Infix Conversion",
+  "section": "Stack & Queue",
+  "sub": "Prefix, Infix, Postfix Conversion Problems",
+  "links": []
+ },
+ {
+  "no": 209,
+  "title": "Prefix to Postfix Conversion",
+  "section": "Stack & Queue",
+  "sub": "Prefix, Infix, Postfix Conversion Problems",
+  "links": []
+ },
+ {
+  "no": 210,
+  "title": "Postfix to Prefix Conversion",
+  "section": "Stack & Queue",
+  "sub": "Prefix, Infix, Postfix Conversion Problems",
+  "links": []
+ },
+ {
+  "no": 211,
+  "title": "Postfix to Infix",
+  "section": "Stack & Queue",
+  "sub": "Prefix, Infix, Postfix Conversion Problems",
+  "links": []
+ },
+ {
+  "no": 212,
+  "title": "Convert Infix To Prefix Notation",
+  "section": "Stack & Queue",
+  "sub": "Prefix, Infix, Postfix Conversion Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 213,
+  "title": "Next Greater Element",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/next-greater-element-i/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 214,
+  "title": "Next Greater Element - II",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/next-greater-element-ii/"
+   }
+  ]
+ },
+ {
+  "no": 215,
+  "title": "Next Smaller Element",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1"
+   }
+  ]
+ },
+ {
+  "no": 216,
+  "title": "Number of NGEs to the right",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": []
+ },
+ {
+  "no": 217,
+  "title": "Trapping Rainwater",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/trapping-rain-water/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 218,
+  "title": "Sum of subarray minimum",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sum-of-subarray-minimums/"
+   }
+  ]
+ },
+ {
+  "no": 219,
+  "title": "Stock span problem",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/online-stock-span/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 220,
+  "title": "Asteroid Collision",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/asteroid-collision/"
+   }
+  ]
+ },
+ {
+  "no": 221,
+  "title": "Sum of subarray ranges",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sum-of-subarray-ranges/"
+   }
+  ]
+ },
+ {
+  "no": 222,
+  "title": "Remove k Digits",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/remove-k-digits/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/remove-k-digits/1"
+   }
+  ]
+ },
+ {
+  "no": 223,
+  "title": "Largest rectangle in a histogram",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 224,
+  "title": "Maximal Rectangles",
+  "section": "Stack & Queue",
+  "sub": "Monotonic Stack /Queue Problem [Imp]",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximal-rectangle/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/max-rectangle/1"
+   }
+  ]
+ },
+ {
+  "no": 225,
+  "title": "Sliding Window maximum",
+  "section": "Stack & Queue",
+  "sub": "Implementation Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1"
+   }
+  ]
+ },
+ {
+  "no": 226,
+  "title": "Stock Span Problem",
+  "section": "Stack & Queue",
+  "sub": "Implementation Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/online-stock-span/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 227,
+  "title": "The Celebrity Problem",
+  "section": "Stack & Queue",
+  "sub": "Implementation Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1"
+   }
+  ]
+ },
+ {
+  "no": 228,
+  "title": "Rotten Oranges",
+  "section": "Stack & Queue",
+  "sub": "Implementation Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotting-oranges/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1"
+   }
+  ]
+ },
+ {
+  "no": 229,
+  "title": "LRU cache (IMPORTANT)",
+  "section": "Stack & Queue",
+  "sub": "Implementation Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/lru-cache/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/lru-cache/1"
+   }
+  ]
+ },
+ {
+  "no": 230,
+  "title": "LFU cache",
+  "section": "Stack & Queue",
+  "sub": "Implementation Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/lfu-cache/"
+   }
+  ]
+ },
+ {
+  "no": 231,
+  "title": "Longest Substring Without Repeating Characters",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1"
+   }
+  ]
+ },
+ {
+  "no": 232,
+  "title": "Max Consecutive Ones III",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-consecutive-ones/1"
+   }
+  ]
+ },
+ {
+  "no": 233,
+  "title": "Fruit Into Baskets",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": []
+ },
+ {
+  "no": 234,
+  "title": "Longest repeating character replacement",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+   }
+  ]
+ },
+ {
+  "no": 235,
+  "title": "Binary subarray with sum",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+   }
+  ]
+ },
+ {
+  "no": 236,
+  "title": "Count number of nice subarrays",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-subarray-with-k-odds/1"
+   }
+  ]
+ },
+ {
+  "no": 237,
+  "title": "Number of substring containing all three characters",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-substring/1"
+   }
+  ]
+ },
+ {
+  "no": 238,
+  "title": "Maximum point you can obtain from cards",
+  "section": "Two Pointers",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/"
+   }
+  ]
+ },
+ {
+  "no": 239,
+  "title": "Longest Substring with At Most K Distinct Characters",
+  "section": "Two Pointers",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1"
+   }
+  ]
+ },
+ {
+  "no": 240,
+  "title": "Subarray with k different integers",
+  "section": "Two Pointers",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+   }
+  ]
+ },
+ {
+  "no": 241,
+  "title": "Minimum Window Substring",
+  "section": "Two Pointers",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-window-substring/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 242,
+  "title": "Minimum Window Subsequence",
+  "section": "Two Pointers",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-window-subsequence/"
+   }
+  ]
+ },
+ {
+  "no": 243,
+  "title": "Introduction to Priority Queues using Binary Heaps",
+  "section": "Heaps",
+  "sub": "Learning",
+  "links": []
+ },
+ {
+  "no": 244,
+  "title": "Min Heap and Max Heap Implementation",
+  "section": "Heaps",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1"
+   }
+  ]
+ },
+ {
+  "no": 245,
+  "title": "Check if an array represents a min-heap or not",
+  "section": "Heaps",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/does-array-represent-heap4345/1"
+   }
+  ]
+ },
+ {
+  "no": 246,
+  "title": "Convert min Heap to max Heap",
+  "section": "Heaps",
+  "sub": "Learning",
+  "links": []
+ },
+ {
+  "no": 247,
+  "title": "Kth largest element in an array [use priority queue]",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1"
+   }
+  ]
+ },
+ {
+  "no": 248,
+  "title": "Kth smallest element in an array [use priority queue]",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1"
+   }
+  ]
+ },
+ {
+  "no": 249,
+  "title": "Sort K sorted array",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1"
+   }
+  ]
+ },
+ {
+  "no": 250,
+  "title": "Merge M sorted Lists",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1"
+   }
+  ]
+ },
+ {
+  "no": 251,
+  "title": "Replace each array element by its corresponding rank",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": []
+ },
+ {
+  "no": 252,
+  "title": "Task Scheduler",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/task-scheduler/"
+   }
+  ]
+ },
+ {
+  "no": 253,
+  "title": "Hands of Straights",
+  "section": "Heaps",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/hand-of-straights/"
+   }
+  ]
+ },
+ {
+  "no": 254,
+  "title": "Design twitter",
+  "section": "Heaps",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/design-twitter/"
+   }
+  ]
+ },
+ {
+  "no": 255,
+  "title": "Connect `n` ropes with minimal cost",
+  "section": "Heaps",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 256,
+  "title": "Kth largest element in a stream of running integers",
+  "section": "Heaps",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1"
+   }
+  ]
+ },
+ {
+  "no": 257,
+  "title": "Maximum Sum Combination",
+  "section": "Heaps",
+  "sub": "Hard Problems",
+  "links": []
+ },
+ {
+  "no": 258,
+  "title": "Find Median from Data Stream",
+  "section": "Heaps",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 259,
+  "title": "K most frequent elements",
+  "section": "Heaps",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1"
+   }
+  ]
+ },
+ {
+  "no": 260,
+  "title": "Assign Cookies",
+  "section": "Greedy Algorithms",
+  "sub": "Easy Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/assign-cookies/"
+   }
+  ]
+ },
+ {
+  "no": 261,
+  "title": "Fractional Knapsack Problem",
+  "section": "Greedy Algorithms",
+  "sub": "Easy Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 262,
+  "title": "Greedy algorithm to find minimum",
+  "section": "Greedy Algorithms",
+  "sub": "Easy Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1"
+   }
+  ]
+ },
+ {
+  "no": 263,
+  "title": "Lemonade Change",
+  "section": "Greedy Algorithms",
+  "sub": "Easy Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/lemonade-change/"
+   }
+  ]
+ },
+ {
+  "no": 264,
+  "title": "Valid Paranthesis Checker",
+  "section": "Greedy Algorithms",
+  "sub": "Easy Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-parenthesis-string/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1"
+   }
+  ]
+ },
+ {
+  "no": 265,
+  "title": "N meetings in one room",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 266,
+  "title": "Jump Game",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/jump-game/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/jump-game/1"
+   }
+  ]
+ },
+ {
+  "no": 267,
+  "title": "Jump Game 2",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/jump-game-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 268,
+  "title": "Minimum number of platforms required for a railway",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 269,
+  "title": "Job sequencing Problem",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 270,
+  "title": "Candy",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/candy/"
+   }
+  ]
+ },
+ {
+  "no": 271,
+  "title": "Program for Shortest Job First (or SJF) CPU Scheduling",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": []
+ },
+ {
+  "no": 272,
+  "title": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1"
+   }
+  ]
+ },
+ {
+  "no": 273,
+  "title": "Insert Interval",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/insert-interval/"
+   }
+  ]
+ },
+ {
+  "no": 274,
+  "title": "Merge Intervals",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/merge-intervals/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1"
+   }
+  ]
+ },
+ {
+  "no": 275,
+  "title": "Non-overlapping Intervals",
+  "section": "Greedy Algorithms",
+  "sub": "Medium /Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+   }
+  ]
+ },
+ {
+  "no": 276,
+  "title": "Introduction to Trees",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": []
+ },
+ {
+  "no": 277,
+  "title": "Binary Tree Representation in C++",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": []
+ },
+ {
+  "no": 278,
+  "title": "Binary Tree Representation in Java",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": []
+ },
+ {
+  "no": 279,
+  "title": "Binary Tree Traversals in Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": []
+ },
+ {
+  "no": 280,
+  "title": "Preorder Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/preorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 281,
+  "title": "Inorder Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/inorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 282,
+  "title": "Post-order Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/postorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 283,
+  "title": "Level order Traversal / Level order traversal in spiral form",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1"
+   }
+  ]
+ },
+ {
+  "no": 284,
+  "title": "Iterative Preorder Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/preorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 285,
+  "title": "Iterative Inorder Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/inorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 286,
+  "title": "Post-order Traversal of Binary Tree using 2 stack",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/postorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 287,
+  "title": "Post-order Traversal of Binary Tree using 1 stack",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/postorder-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 288,
+  "title": "Preorder, Inorder, and Postorder Traversal in one Traversal",
+  "section": "Binary Tree",
+  "sub": "Traversals",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/postorder-traversal-iterative/1"
+   }
+  ]
+ },
+ {
+  "no": 289,
+  "title": "Height of a Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 290,
+  "title": "Check if the Binary tree is height-balanced or not",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 291,
+  "title": "Diameter of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 292,
+  "title": "Maximum path sum",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1"
+   }
+  ]
+ },
+ {
+  "no": 293,
+  "title": "Check if two trees are identical or not",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/same-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1"
+   }
+  ]
+ },
+ {
+  "no": 294,
+  "title": "Zig Zag Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1"
+   }
+  ]
+ },
+ {
+  "no": 295,
+  "title": "Boundary Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/boundary-of-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/0"
+   }
+  ]
+ },
+ {
+  "no": 296,
+  "title": "Vertical Order Traversal of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0"
+   }
+  ]
+ },
+ {
+  "no": 297,
+  "title": "Top View of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 298,
+  "title": "Bottom View of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 299,
+  "title": "Right/Left View of Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 300,
+  "title": "Symmetric Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Medium Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/symmetric-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/symmetric-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 301,
+  "title": "Root to Node Path in Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://www.interviewbit.com/problems/path-to-given-node/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1"
+   }
+  ]
+ },
+ {
+  "no": 302,
+  "title": "LCA in Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 303,
+  "title": "Maximum width of a Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 304,
+  "title": "Check for Children Sum Property",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/children-sum-parent/1"
+   }
+  ]
+ },
+ {
+  "no": 305,
+  "title": "Print all the Nodes at a distance of K in a Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 306,
+  "title": "Minimum time taken to BURN the Binary Tree from a Node",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/burning-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 307,
+  "title": "Count total Nodes in a COMPLETE Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/count-complete-tree-nodes/"
+   }
+  ]
+ },
+ {
+  "no": 308,
+  "title": "Requirements needed to construct a Unique Binary Tree | Theory",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": []
+ },
+ {
+  "no": 309,
+  "title": "Construct Binary Tree from inorder and preorder",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/construct-tree-1/1"
+   }
+  ]
+ },
+ {
+  "no": 310,
+  "title": "Construct the Binary Tree from Postorder and Inorder Traversal",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1"
+   }
+  ]
+ },
+ {
+  "no": 311,
+  "title": "Serialize and deserialize Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 312,
+  "title": "Morris Preorder Traversal of a Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+   }
+  ]
+ },
+ {
+  "no": 313,
+  "title": "Morris Inorder Traversal of a Binary Tree",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+   }
+  ]
+ },
+ {
+  "no": 314,
+  "title": "Flatten Binary Tree to LinkedList",
+  "section": "Binary Tree",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1"
+   }
+  ]
+ },
+ {
+  "no": 315,
+  "title": "Introduction to Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Concepts",
+  "links": []
+ },
+ {
+  "no": 316,
+  "title": "Search in a Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Concepts",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/search-a-node-in-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 317,
+  "title": "Find Min/Max in BST",
+  "section": "Binary Search Tree",
+  "sub": "Concepts",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 318,
+  "title": "Ceil in a Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 319,
+  "title": "Floor in a Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": []
+ },
+ {
+  "no": 320,
+  "title": "Insert a given Node in Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 321,
+  "title": "Delete a Node in Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/delete-node-in-a-bst/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 322,
+  "title": "Find K-th smallest/largest element in BST",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1#:~:text=Find%20the%20Kth%20Smallest%20element%20in%20the%20BST.&text=Your%20Task%3A,such%20element%20exists%20return%20%2D1."
+   }
+  ]
+ },
+ {
+  "no": 323,
+  "title": "Check if a tree is a BST or BT",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/check-for-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 324,
+  "title": "LCA in Binary Search Tree",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 325,
+  "title": "Construct a BST from a preorder traversal",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/preorder-to-postorder4423/1"
+   }
+  ]
+ },
+ {
+  "no": 326,
+  "title": "Inorder Successor/Predecessor in BST",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/inorder-successor-in-bst/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1"
+   }
+  ]
+ },
+ {
+  "no": 327,
+  "title": "Merge 2 BST’s",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-search-tree-iterator/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1"
+   }
+  ]
+ },
+ {
+  "no": 328,
+  "title": "Two Sum In BST | Check if there exists a pair with Sum K",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 329,
+  "title": "Recover BST | Correct BST with two nodes swapped",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/recover-binary-search-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1"
+   }
+  ]
+ },
+ {
+  "no": 330,
+  "title": "Largest BST in Binary Tree",
+  "section": "Binary Search Tree",
+  "sub": "Practice Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/largest-bst/1"
+   }
+  ]
+ },
+ {
+  "no": 331,
+  "title": "Graph and Types",
+  "section": "Graphs",
+  "sub": "Learning",
+  "links": []
+ },
+ {
+  "no": 332,
+  "title": "Graph Representation | C++",
+  "section": "Graphs",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 333,
+  "title": "Graph Representation | Java",
+  "section": "Graphs",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 334,
+  "title": "Connected Components | Logic Explanation",
+  "section": "Graphs",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-provinces/1"
+   }
+  ]
+ },
+ {
+  "no": 335,
+  "title": "BFS",
+  "section": "Graphs",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 336,
+  "title": "DFS",
+  "section": "Graphs",
+  "sub": "Learning",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 337,
+  "title": "Number of provinces (leetcode)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces."
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-provinces/1"
+   }
+  ]
+ },
+ {
+  "no": 338,
+  "title": "Connected Components Problem in Matrix",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-provinces/1"
+   }
+  ]
+ },
+ {
+  "no": 339,
+  "title": "Rotten Oranges",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/rotting-oranges/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1"
+   }
+  ]
+ },
+ {
+  "no": 340,
+  "title": "Flood fill",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/flood-fill/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1"
+   }
+  ]
+ },
+ {
+  "no": 341,
+  "title": "Cycle Detection in unirected Graph (bfs)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 342,
+  "title": "Cycle Detection in undirected Graph (dfs)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 343,
+  "title": "0/1 Matrix (Bfs Problem)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/01-matrix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 344,
+  "title": "Surrounded Regions (dfs)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/surrounded-regions/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1"
+   }
+  ]
+ },
+ {
+  "no": 345,
+  "title": "Number of Enclaves [flood fill implementation – multisource]",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-enclaves/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-enclaves/1"
+   }
+  ]
+ },
+ {
+  "no": 346,
+  "title": "Word ladder – 1",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/word-ladder/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/word-ladder/1"
+   }
+  ]
+ },
+ {
+  "no": 347,
+  "title": "Word ladder – 2",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/word-ladder-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/word-ladder-ii/1"
+   }
+  ]
+ },
+ {
+  "no": 348,
+  "title": "Number of Distinct Islands [dfs multisource]",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-distinct-islands-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-distinct-islands/1"
+   }
+  ]
+ },
+ {
+  "no": 349,
+  "title": "Bipartite Graph (DFS)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/is-graph-bipartite/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bipartite-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 350,
+  "title": "Cycle Detection in Directed Graph (DFS)",
+  "section": "Graphs",
+  "sub": "Problems on BFS /DFS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 351,
+  "title": "Topo Sort",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 352,
+  "title": "Kahn’s Algorithm",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+   }
+  ]
+ },
+ {
+  "no": 353,
+  "title": "Cycle Detection in Directed Graph (BFS)",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 354,
+  "title": "Course Schedule – I",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/course-schedule/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/course-schedule/1"
+   }
+  ]
+ },
+ {
+  "no": 355,
+  "title": "Course Schedule – II",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/course-schedule-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/course-schedule/1"
+   }
+  ]
+ },
+ {
+  "no": 356,
+  "title": "Find eventual safe states",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-eventual-safe-states/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/eventual-safe-states/1"
+   }
+  ]
+ },
+ {
+  "no": 357,
+  "title": "Alien dictionary",
+  "section": "Graphs",
+  "sub": "Topo Sort and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/alien-dictionary/solution/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/alien-dictionary/1"
+   }
+  ]
+ },
+ {
+  "no": 358,
+  "title": "Shortest Path in UG with unit weights",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": []
+ },
+ {
+  "no": 359,
+  "title": "Shortest Path in DAG",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": []
+ },
+ {
+  "no": 360,
+  "title": "Djisktra’s Algorithm",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1"
+   }
+  ]
+ },
+ {
+  "no": 361,
+  "title": "Why priority Queue is used in Djisktra’s Algorithm",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": []
+ },
+ {
+  "no": 362,
+  "title": "Shortest path in a binary maze",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1"
+   }
+  ]
+ },
+ {
+  "no": 363,
+  "title": "Path with minimum effort",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/path-with-minimum-effort/"
+   }
+  ]
+ },
+ {
+  "no": 364,
+  "title": "Cheapest flights within k stops",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+   }
+  ]
+ },
+ {
+  "no": 365,
+  "title": "Network Delay time",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/network-delay-time/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/alex-travelling/1"
+   }
+  ]
+ },
+ {
+  "no": 366,
+  "title": "Number of ways to arrive at destination",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-ways-to-arrive-at-destination/1"
+   }
+  ]
+ },
+ {
+  "no": 367,
+  "title": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1"
+   }
+  ]
+ },
+ {
+  "no": 368,
+  "title": "Bellman Ford Algorithm",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1"
+   }
+  ]
+ },
+ {
+  "no": 369,
+  "title": "Floyd Warshal Algorithm",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1"
+   }
+  ]
+ },
+ {
+  "no": 370,
+  "title": "Find the city with the smallest number of neighbors in a threshold distance",
+  "section": "Graphs",
+  "sub": "Shortest Path Algorithms and Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/0?category%5B%5D=Shortest%20Path&category%5B%5D=Shortest%20Path&page=1&query=category%5B%5DShortest%20Pathpage1category%5B%5DShortest%20Path"
+   }
+  ]
+ },
+ {
+  "no": 371,
+  "title": "Minimum Spanning Tree",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 372,
+  "title": "Prim’s Algorithm",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 373,
+  "title": "Disjoint Set [Union by Rank]",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1"
+   }
+  ]
+ },
+ {
+  "no": 374,
+  "title": "Disjoint Set [Union by Size]",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1"
+   }
+  ]
+ },
+ {
+  "no": 375,
+  "title": "Kruskal’s Algorithm",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+   }
+  ]
+ },
+ {
+  "no": 376,
+  "title": "Number of operations to make network connected",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+   }
+  ]
+ },
+ {
+  "no": 377,
+  "title": "Most stones removed with same rows or columns",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+   }
+  ]
+ },
+ {
+  "no": 378,
+  "title": "Accounts merge",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/accounts-merge/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/merging-details/1"
+   }
+  ]
+ },
+ {
+  "no": 379,
+  "title": "Number of island II",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-islands-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1"
+   }
+  ]
+ },
+ {
+  "no": 380,
+  "title": "Making a Large Island",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/making-a-large-island/"
+   }
+  ]
+ },
+ {
+  "no": 381,
+  "title": "Swim in rising water",
+  "section": "Graphs",
+  "sub": "Minimum Spanning Tree / Disjoint Set Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/swim-in-rising-water/"
+   }
+  ]
+ },
+ {
+  "no": 382,
+  "title": "Bridges in Graph",
+  "section": "Graphs",
+  "sub": "Other Algorithms",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1"
+   }
+  ]
+ },
+ {
+  "no": 383,
+  "title": "Articulation Point",
+  "section": "Graphs",
+  "sub": "Other Algorithms",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/articulation-point-1/1"
+   }
+  ]
+ },
+ {
+  "no": 384,
+  "title": "Kosaraju’s Algorithm",
+  "section": "Graphs",
+  "sub": "Other Algorithms",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"
+   }
+  ]
+ },
+ {
+  "no": 385,
+  "title": "Dynamic Programming Introduction",
+  "section": "Dynamic Programming",
+  "sub": "Introduction to DP",
+  "links": []
+ },
+ {
+  "no": 386,
+  "title": "Climbing Stars",
+  "section": "Dynamic Programming",
+  "sub": "1D DP",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/climbing-stairs/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 387,
+  "title": "Frog Jump(DP-3)",
+  "section": "Dynamic Programming",
+  "sub": "1D DP",
+  "links": []
+ },
+ {
+  "no": 388,
+  "title": "Frog Jump with k distances(DP-4)",
+  "section": "Dynamic Programming",
+  "sub": "1D DP",
+  "links": []
+ },
+ {
+  "no": 389,
+  "title": "Maximum sum of non-adjacent elements (DP 5)",
+  "section": "Dynamic Programming",
+  "sub": "1D DP",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/max-sum-without-adjacents2430/1"
+   }
+  ]
+ },
+ {
+  "no": 390,
+  "title": "House Robber (DP 6)",
+  "section": "Dynamic Programming",
+  "sub": "1D DP",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 391,
+  "title": "Ninja’s Training (DP 7)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": []
+ },
+ {
+  "no": 392,
+  "title": "Grid Unique Paths : DP on Grids (DP8)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/unique-paths/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-unique-paths5339/1"
+   }
+  ]
+ },
+ {
+  "no": 393,
+  "title": "Grid Unique Paths 2 (DP 9)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/unique-paths-ii/"
+   }
+  ]
+ },
+ {
+  "no": 394,
+  "title": "Minimum path sum in Grid (DP 10)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-path-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1"
+   }
+  ]
+ },
+ {
+  "no": 395,
+  "title": "Minimum path sum in Triangular Grid (DP 11)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/triangle/"
+   }
+  ]
+ },
+ {
+  "no": 396,
+  "title": "Minimum/Maximum Falling Path Sum (DP-12)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-falling-path-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1"
+   }
+  ]
+ },
+ {
+  "no": 397,
+  "title": "3D DP : Ninja and his friends (DP-13)",
+  "section": "Dynamic Programming",
+  "sub": "2D /3D DP and DP on Grids",
+  "links": []
+ },
+ {
+  "no": 398,
+  "title": "Subset sum equal to target (DP- 14)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1"
+   }
+  ]
+ },
+ {
+  "no": 399,
+  "title": "Partition Equal Subset Sum (DP- 15)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1"
+   }
+  ]
+ },
+ {
+  "no": 400,
+  "title": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1"
+   }
+  ]
+ },
+ {
+  "no": 401,
+  "title": "Count Subsets with Sum K (DP – 17)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1"
+   }
+  ]
+ },
+ {
+  "no": 402,
+  "title": "Count Partitions with Given Difference (DP – 18)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": []
+ },
+ {
+  "no": 403,
+  "title": "0/1 Knapsack (DP – 19)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1"
+   }
+  ]
+ },
+ {
+  "no": 404,
+  "title": "Minimum Coins (DP – 20)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/coin-change/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1"
+   }
+  ]
+ },
+ {
+  "no": 405,
+  "title": "Target Sum (DP – 21)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/target-sum/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/target-sum-1626326450/1"
+   }
+  ]
+ },
+ {
+  "no": 406,
+  "title": "Coin Change 2 (DP – 22)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/coin-change-2/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/coin-change2448/1"
+   }
+  ]
+ },
+ {
+  "no": 407,
+  "title": "Unbounded Knapsack (DP – 23)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1"
+   }
+  ]
+ },
+ {
+  "no": 408,
+  "title": "Rod Cutting Problem | (DP – 24)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Subsequence",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rod-cutting0840/1"
+   }
+  ]
+ },
+ {
+  "no": 409,
+  "title": "Longest Common Subsequence | (DP – 25)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 410,
+  "title": "Print Longest Common Subsequence | (DP – 26)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1"
+   }
+  ]
+ },
+ {
+  "no": 411,
+  "title": "Longest Common Substring | (DP – 27)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1"
+   }
+  ]
+ },
+ {
+  "no": 412,
+  "title": "Longest Palindromic Subsequence | (DP-28)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-palindromic-subsequence/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1"
+   }
+  ]
+ },
+ {
+  "no": 413,
+  "title": "Minimum insertions to make string palindrome | DP-29",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/form-a-palindrome1455/1"
+   }
+  ]
+ },
+ {
+  "no": 414,
+  "title": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/delete-operation-for-two-strings/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1"
+   }
+  ]
+ },
+ {
+  "no": 415,
+  "title": "Shortest Common Supersequence | (DP – 31)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/shortest-common-supersequence/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/shortest-common-supersequence0322/1"
+   }
+  ]
+ },
+ {
+  "no": 416,
+  "title": "Distinct Subsequences| (DP-32)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/distinct-subsequences/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-distinct-subsequences0909/1"
+   }
+  ]
+ },
+ {
+  "no": 417,
+  "title": "Edit Distance | (DP-33)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/edit-distance/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/edit-distance3702/1"
+   }
+  ]
+ },
+ {
+  "no": 418,
+  "title": "Wildcard Matching | (DP-34)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Strings",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/wildcard-matching/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/wildcard-pattern-matching/1"
+   }
+  ]
+ },
+ {
+  "no": 419,
+  "title": "Best Time to Buy and Sell Stock |(DP-35)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Stocks",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1"
+   }
+  ]
+ },
+ {
+  "no": 420,
+  "title": "Buy and Sell Stock – II|(DP-36)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Stocks",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
+   }
+  ]
+ },
+ {
+  "no": 421,
+  "title": "Buy and Sell Stocks III|(DP-37)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Stocks",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/buy-and-sell-a-share-at-most-twice/1"
+   }
+  ]
+ },
+ {
+  "no": 422,
+  "title": "Buy and Stock Sell IV |(DP-38)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Stocks",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-profit4657/1"
+   }
+  ]
+ },
+ {
+  "no": 423,
+  "title": "Buy and Sell Stocks With Cooldown|(DP-39)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Stocks",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+   }
+  ]
+ },
+ {
+  "no": 424,
+  "title": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Stocks",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/"
+   }
+  ]
+ },
+ {
+  "no": 425,
+  "title": "Longest Increasing Subsequence |(DP-41)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 426,
+  "title": "Printing Longest Increasing Subsequence|(DP-42)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": []
+ },
+ {
+  "no": 427,
+  "title": "Longest Increasing Subsequence |(DP-43)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1"
+   }
+  ]
+ },
+ {
+  "no": 428,
+  "title": "Largest Divisible Subset|(DP-44)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/largest-divisible-subset/"
+   }
+  ]
+ },
+ {
+  "no": 429,
+  "title": "Longest String Chain|(DP-45)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-string-chain/"
+   }
+  ]
+ },
+ {
+  "no": 430,
+  "title": "Longest Bitonic Subsequence |(DP-46)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1"
+   }
+  ]
+ },
+ {
+  "no": 431,
+  "title": "Number of Longest Increasing Subsequences|(DP-47)",
+  "section": "Dynamic Programming",
+  "sub": "DP on LIS",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+   }
+  ]
+ },
+ {
+  "no": 432,
+  "title": "Matrix Chain Multiplication|(DP-48)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1"
+   }
+  ]
+ },
+ {
+  "no": 433,
+  "title": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1"
+   }
+  ]
+ },
+ {
+  "no": 434,
+  "title": "Minimum Cost to Cut the Stick|(DP-50)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/rod-cutting0840/1"
+   }
+  ]
+ },
+ {
+  "no": 435,
+  "title": "Burst Balloons|(DP-51)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/burst-balloons/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/batch-problems/maximum-triple-product/1/"
+   }
+  ]
+ },
+ {
+  "no": 436,
+  "title": "Evaluate Boolean Expression to True|(DP-52)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/parsing-a-boolean-expression/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1"
+   }
+  ]
+ },
+ {
+  "no": 437,
+  "title": "Palindrome Partitioning – II|(DP-53)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/palindrome-partitioning-ii/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1"
+   }
+  ]
+ },
+ {
+  "no": 438,
+  "title": "Partition Array for Maximum Sum|(DP-54)",
+  "section": "Dynamic Programming",
+  "sub": "MCM DP | Partition DP",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/partition-array-for-maximum-sum/"
+   }
+  ]
+ },
+ {
+  "no": 439,
+  "title": "Maximum Rectangle Area with all 1’s|(DP-55)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Squares",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximal-rectangle/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/max-rectangle/1"
+   }
+  ]
+ },
+ {
+  "no": 440,
+  "title": "Count Square Submatrices with All Ones|(DP-56)",
+  "section": "Dynamic Programming",
+  "sub": "DP on Squares",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/"
+   }
+  ]
+ },
+ {
+  "no": 441,
+  "title": "Implement TRIE | INSERT | SEARCH | STARTSWITH",
+  "section": "Tries",
+  "sub": "Theory",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/trie-insert-and-search0651/1"
+   }
+  ]
+ },
+ {
+  "no": 442,
+  "title": "Implement Trie – 2 (Prefix Tree)",
+  "section": "Tries",
+  "sub": "Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/trie-delete/1"
+   }
+  ]
+ },
+ {
+  "no": 443,
+  "title": "Longest String with All Prefixes",
+  "section": "Tries",
+  "sub": "Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1"
+   }
+  ]
+ },
+ {
+  "no": 444,
+  "title": "Number of Distinct Substrings in a String",
+  "section": "Tries",
+  "sub": "Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-of-distinct-substrings/1"
+   }
+  ]
+ },
+ {
+  "no": 445,
+  "title": "Bit PreRequisites for TRIE Problems",
+  "section": "Tries",
+  "sub": "Problems",
+  "links": []
+ },
+ {
+  "no": 446,
+  "title": "Maximum XOR of two numbers in an array",
+  "section": "Tries",
+  "sub": "Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/maximum-xor-of-two-numbers-in-an-array/0"
+   }
+  ]
+ },
+ {
+  "no": 447,
+  "title": "Maximum XOR With an Element From Array",
+  "section": "Tries",
+  "sub": "Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/"
+   }
+  ]
+ },
+ {
+  "no": 448,
+  "title": "Minimum number of bracket reversals needed to make an expression balanced",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1"
+   }
+  ]
+ },
+ {
+  "no": 449,
+  "title": "Count and say",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/count-and-say/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/decode-the-pattern1138/1"
+   }
+  ]
+ },
+ {
+  "no": 450,
+  "title": "Hashing In Strings | Theory",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": []
+ },
+ {
+  "no": 451,
+  "title": "Rabin Karp",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/31272eef104840f7430ad9fd1d43b434a4b9596b/1"
+   }
+  ]
+ },
+ {
+  "no": 452,
+  "title": "Z-Function",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/8dcd25918295847b4ced54055eae35a8501181c1/1"
+   }
+  ]
+ },
+ {
+  "no": 453,
+  "title": "KMP algo / LPS(pi) array",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/search-pattern0205/1"
+   }
+  ]
+ },
+ {
+  "no": 454,
+  "title": "Shortest Palindrome",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/shortest-palindrome/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1"
+   }
+  ]
+ },
+ {
+  "no": 455,
+  "title": "Longest happy prefix",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-happy-prefix/"
+   },
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1"
+   }
+  ]
+ },
+ {
+  "no": 456,
+  "title": "Count palindromic subsequence in given string",
+  "section": "Strings",
+  "sub": "Hard Problems",
+  "links": [
+   {
+    "label": "GFG",
+    "url": "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1#:~:text=Given%20a%20string%20str%20of,formed%20from%20the%20string%20str.&text=Your%20Task%3A,read%20input%20or%20print%20anything."
+   }
+  ]
+ }
+]
